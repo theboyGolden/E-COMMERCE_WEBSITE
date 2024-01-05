@@ -1,4 +1,4 @@
-# MODERN MART
+# GOLDEN MART
 Your one stop shop for all your needs
 
  # Creator 👨🏽‍💻
