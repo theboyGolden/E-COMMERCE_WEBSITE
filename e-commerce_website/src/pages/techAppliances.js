@@ -3,13 +3,13 @@ import Sidebar from "../components/Sidebar";
 
 const TechAppliances = () => {
     return (
-        <div>
-            <div>
+        <div className = "flex"> 
+            
                 <Sidebar/>
-            </div>
+            
 
             <div className = "p-7 flex ">
-                <h1> CLOTHING </h1>
+                <h1> TECH APPLIANCES </h1>
             </div>
         </div>
 

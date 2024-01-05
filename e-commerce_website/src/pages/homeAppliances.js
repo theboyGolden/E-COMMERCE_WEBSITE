@@ -3,10 +3,10 @@ import Sidebar from "../components/Sidebar";
 
 const HomeAppliances = () => {
     return (
-        <div>
-            <div>
+        <div className = "flex"> 
+            
                 <Sidebar/>
-            </div>
+            
 
             <div className = "p-7 flex ">
                 <h1> HOME APPLIANCES </h1>
