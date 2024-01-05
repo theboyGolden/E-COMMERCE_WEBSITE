@@ -6,7 +6,7 @@ Your one stop shop for all your needs
 
 ## Project Description 📝
 
-Welcome to ModernMart, an innovative and user-friendly e-commerce platform designed to redefine your online shopping experience. ModernMart is your one-stop solution for all your shopping needs, offering a diverse range of products from top brands, coupled with a seamless and secure shopping environment.
+Welcome to Golden Mart, an innovative and user-friendly e-commerce platform designed to redefine your online shopping experience. ModernMart is your one-stop solution for all your shopping needs, offering a diverse range of products from top brands, coupled with a seamless and secure shopping environment.
 
 **Key Features:**
 
