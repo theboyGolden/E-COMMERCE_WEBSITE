@@ -57,6 +57,11 @@ const Sidebar = () => {
           </div>
         </Link>
 
+
+        <br/>
+        <br/>
+        <br/>
+
         <Link to="/Cosmetics">
           <div className="inline-flex mt-4">
             <TiSpiral className={`bg-white text-4xl rounded cursor-pointer block float-left mr-2 mt-4 duration-500 ${open && "rotate=[360deg]"} `}/>
@@ -70,6 +75,10 @@ const Sidebar = () => {
             <h1 className={`text-gray-500 origin-left font-medium text 9xl duration-300 cursor-pointer mt-5 ${!open && "scale-0"}`}>{" "}HOME APPLIANCES{" "}</h1>
           </div>
         </Link>
+
+        <br/>
+        <br/>
+        <br/>
 
         <Link to="/TechAppliances">
           <div className="inline-flex mt-4">
