@@ -24,7 +24,7 @@ const Sidebar = () => {
   
     return (
         <div className = "flex">
-          <div className={`bg-dark-purple h-screen p-5 pt-8 ${open ? "w-72" : "w-20"} duration-300 relative w-72`}> 
+          <div className={`bg-dark-purple min-h-screen p-5 pt-8 ${open ? "w-72" : "w-20"} duration-300 relative w-72`}> 
           <BsChevronLeft className={`bg-white text-dark-purple text 3xl rounded-full absolute -right-2 top-9 border border-dark-purple cursor-pointer ${!open && "rotate-180"}`} onClick={() => setOpen(!open)}/>
           
           <div className ="inline-flex">
