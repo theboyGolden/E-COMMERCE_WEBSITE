@@ -10,7 +10,7 @@ const Homepage = () => {
       <Sidebar/>
         
 
-      <div className = "p-7 flex ">
+      <div className = "p-2 flex-1 ">
         <Header/>
           <h1> HOMEPAGE </h1>
       </div>
