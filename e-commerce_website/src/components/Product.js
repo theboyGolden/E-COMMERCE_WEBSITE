@@ -1,5 +1,6 @@
 // src/components/Product.js
 import React from 'react';
+import { TiShoppingCart } from "react-icons/ti";
 
 const Product = ({ id, name, price, image, onAddToCart }) => {
   return (
@@ -12,7 +13,10 @@ const Product = ({ id, name, price, image, onAddToCart }) => {
       <p className="text-gray-600">GHC {price}</p>
 
       {/* Add to Cart Button */}
-      <button onClick={() => onAddToCart({ id, name, price })}>Add to Cart</button>
+      <button className="bg-amber-300 inline-flex pl-1 rounded" onClick={() => onAddToCart({ id, name, price })}>
+        Add to Cart
+        <TiShoppingCart className={`text-white-200 bg-amber-300 pl-1 text-2xl rounded cursor-pointer`} />
+    </button>
     </div>
   );
 };
