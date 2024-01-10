@@ -19,6 +19,11 @@ const Homepage = () => {
     setCartItems([...cartItems, item]);
   };
 
+  //Function to clear cart
+  const handleClearCart = () => {
+    setCartItems([]);
+  };
+
   return (
     <div className="flex"> 
       <Sidebar />
@@ -41,12 +46,21 @@ const Homepage = () => {
           {/* Box 2 */}
           <Product id={2} name="Desktop Set" price={7000.00} image={desktopset} onAddToCart={handleAddToCart} />
 
+          {/* Box 3 */}
+          <Product id={3} name="Macbook Pro 2023" price={6000.00} image={macbook} onAddToCart={handleAddToCart} />
+
+          {/* Box 4 */}
+          <Product id={4} name="Washing Machine" price={4000.00} image={washingMachine} onAddToCart={handleAddToCart} />
+
+          {/* Box 2 */}
+          <Product id={5} name="Gen Z Camcoder" price={800.00} image={Camera} onAddToCart={handleAddToCart} />
+
           {/* Add more products as needed */}
         </div>
       </div>
 
       {/* Shopping Cart */}
-      <Cart items={cartItems} />
+      <Cart items={cartItems} onClearCart={handleClearCart} />
     </div>
   );
 };
