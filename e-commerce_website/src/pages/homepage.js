@@ -38,6 +38,11 @@ const Homepage = () => {
           {/* Content inside the div goes here */}
         </div>
 
+        <div className="p-4 bg-amber-300" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <h1>Hot Deals!!</h1>
+        </div>
+
+
         {/* Boxes for Goods */}
         <div className="flex flex-wrap gap-4">
           {/* Box 1 */}

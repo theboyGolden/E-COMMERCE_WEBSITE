@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { TiShoppingCart } from "react-icons/ti";
-import LinkButton from './Link.js'
 
-const Header = ({ cartItemCount }) => {
+
+const Header = () => {
   return (
     <header className="bg-Niagara text-black p-5">
   <div className="container mx-auto flex justify-between items-center">
@@ -17,19 +17,6 @@ const Header = ({ cartItemCount }) => {
         <Link to="/Grocery"><li><a href="#" className="hover:underline">Products</a></li></Link>
         <li><a href="#" className="hover:underline">Contact</a></li>
       </ul>
-      <div className='flex-1 mx auto'>
-        <LinkButton to="/cart">
-            <TiShoppingCart
-              className={`text-amber-200 bg-Niagara text-4xl rounded cursor-pointer`}
-            />
-            {cartItemCount > 0 && (
-              <span className="text-sm bg-red-500 text-white rounded-full px-2 py-1 ml-2">
-                {cartItemCount}
-              </span>
-            )}
-        </LinkButton>
-      </div>
-      
     </nav>
     <button className="bg-white text-gold-500 py-2 px-4 rounded-md hover:bg-gray-200">
       Sign In
